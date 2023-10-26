@@ -26,8 +26,8 @@ Here, In this template, we will create a sql databsae and container in cosmosdb 
 * It will create the resource within your subscription.
 * To check whether the Cosmosdb Database and SQL Container are created or not within the subscription or not.
 
-`az cosmosdb database list --name <CosmosDBAccountName> --resource-group <ResourceGroupName> --output table
-`
+`az cosmosdb database list --name <CosmosDBAccountName> --resource-group <ResourceGroupName> --output table`
+
 `az cosmosdb sql container list --account-name mycosmosdb --db-name mydatabase --resource-group myresourcegroup` 
 
 * Use the already created cosmosdb account to put the values in the `terraform.tfvars`, command to create `vi terraform.tfvars`
