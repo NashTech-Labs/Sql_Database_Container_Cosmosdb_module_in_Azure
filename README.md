@@ -1,6 +1,6 @@
 ## Description
 
-Here, In this template, we will create a sql databsae and container in cosmosdb account using the terraform module within a subscription.
+Here, In this template, we will create a sql database and container in cosmosdb account using the terraform module within a subscription.
 
 ---
 
